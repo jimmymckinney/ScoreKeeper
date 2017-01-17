@@ -9,8 +9,8 @@ import com.example.android.scorekeeper.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreTeamA = 0;
-    int scoreTeamB = 0;
+    private int scoreTeamA = 0;
+    private int scoreTeamB = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,16 +19,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState)
-    {
+    public void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
         savedInstanceState.putInt("scoreTeamA", scoreTeamA);
         savedInstanceState.putInt("scoreTeamB", scoreTeamB);
     }
 
     @Override
-    public void onRestoreInstanceState(Bundle savedInstanceState)
-    {
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         scoreTeamA = savedInstanceState.getInt("scoreTeamA");
         scoreTeamB = savedInstanceState.getInt("scoreTeamB");
@@ -36,22 +34,22 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreTeamB);
     }
 
-    public void onePointTeamA (View view) {
+    public void onePointTeamA(View view) {
         scoreTeamA++;
         displayForTeamA(scoreTeamA);
     }
 
-    public void twoPointsTeamA (View view) {
+    public void twoPointsTeamA(View view) {
         scoreTeamA = scoreTeamA + 2;
         displayForTeamA(scoreTeamA);
     }
 
-    public void threePointsTeamA (View view) {
+    public void threePointsTeamA(View view) {
         scoreTeamA = scoreTeamA + 3;
         displayForTeamA(scoreTeamA);
     }
 
-    public void sixPointsTeamA (View view) {
+    public void sixPointsTeamA(View view) {
         scoreTeamA = scoreTeamA + 6;
         displayForTeamA(scoreTeamA);
     }
@@ -64,22 +62,22 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-    public void onePointTeamB (View view) {
+    public void onePointTeamB(View view) {
         scoreTeamB++;
         displayForTeamB(scoreTeamB);
     }
 
-    public void twoPointsTeamB (View view) {
+    public void twoPointsTeamB(View view) {
         scoreTeamB = scoreTeamB + 2;
         displayForTeamB(scoreTeamB);
     }
 
-    public void threePointsTeamB (View view) {
+    public void threePointsTeamB(View view) {
         scoreTeamB = scoreTeamB + 3;
         displayForTeamB(scoreTeamB);
     }
 
-    public void sixPointsTeamB (View view) {
+    public void sixPointsTeamB(View view) {
         scoreTeamB = scoreTeamB + 6;
         displayForTeamB(scoreTeamB);
     }
