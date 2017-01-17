@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Score Keeper</string>
+    <string name="touchdown">Touchdown</string>
+    <string name="field_goal">Field Goal</string>
+    <string name="pat_kick">PAT (Kick)</string>
+    <string name="pat_two_pt">PAT (2-Point Conversion)</string>
+    <string name="reset">Reset</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
 </resources>

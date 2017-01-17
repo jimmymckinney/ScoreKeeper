@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Team A"
+                    android:text="@string/team_a"
                     android:textSize="14sp" />
 
                 <TextView
@@ -61,7 +61,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="sixPointsTeamA"
-                    android:text="Touchdown" />
+                    android:text="@string/touchdown" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -70,7 +70,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="threePointsTeamA"
-                    android:text="Field Goal" />
+                    android:text="@string/field_goal" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -79,7 +79,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="onePointTeamA"
-                    android:text="PAT (Kick)" />
+                    android:text="@string/pat_kick" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -87,7 +87,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="twoPointsTeamA"
-                    android:text="PAT (2-Point Converson)" />
+                    android:text="@string/pat_two_pt" />
             </LinearLayout>
 
             <View
@@ -108,7 +108,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Team B"
+                    android:text="@string/team_b"
                     android:textSize="14sp" />
 
                 <TextView
@@ -128,7 +128,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="sixPointsTeamB"
-                    android:text="Touchdown" />
+                    android:text="@string/touchdown" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -137,7 +137,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="threePointsTeamB"
-                    android:text="Field Goal" />
+                    android:text="@string/field_goal" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -146,7 +146,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="onePointTeamB"
-                    android:text="PAT (KICK)" />
+                    android:text="@string/pat_kick" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -154,7 +154,7 @@
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
                     android:onClick="twoPointsTeamB"
-                    android:text="PAT (2-Point Converson)" />
+                    android:text="@string/pat_two_pt" />
             </LinearLayout>
         </LinearLayout>
 
@@ -166,7 +166,7 @@
             android:layout_marginBottom="32dp"
             android:layout_marginTop="32dp"
             android:onClick="reset"
-            android:text="Reset" />
+            android:text="@string/reset" />
 
     </RelativeLayout>
         </FrameLayout>
